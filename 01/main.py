@@ -124,13 +124,13 @@ while not ended_session:
     
     #print("\n")
     print(valid_expression)
-    _result = solve_expression()
+    result = solve_expression()
 
-    print("Is the same as " + str(_result) + "R")
+    print("Is the same as " + str(result) + "R")
 
     ended_session = exit_keywords.count(user_input) > 0
 
-    if _result != None:
+    if result != None:
         pass
 
     #os.system("clear")
